@@ -86,11 +86,8 @@ export PopoverProvider from './PopoverProvider';
 export Popup from './Popup';
 export PopupProvider from './PopupProvider';
 export Portal from './Portal';
-<<<<<<< HEAD
-export QuarterRangeFiled from './QuarterRangeFiled';
-=======
 export QuarterRangeField from './QuarterRangeField';
->>>>>>> a0ddcf22f (rename the quarter-range-field and fix the arrow)
+>>>>>>> 1b7c50288 (merge master)
 export Radio from './Radio';
 export RadioGroup from './RadioGroup';
 export RaisedButton from './RaisedButton';
