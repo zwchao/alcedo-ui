@@ -1,5 +1,5 @@
 /**
- * @file MonthPicker component
+ * @file: /alcedo-ui/src/_MonthPicker/MonthPicker.js
  */
 
 import React, {Component} from 'react';
@@ -264,6 +264,8 @@ class MonthPicker extends Component {
                     :
                     +moment(minValue).format('YYYY') >= +selectYear
             );
+
+            console.log({minValue});
 
         return (
             <div className={'calendar'}>

@@ -1,3 +1,7 @@
+/**
+ * @file: /alcedo-ui/examples/containers/app/modules/date/MonthRangeFieldExamples.js
+ * @author: zhongweichao(zhongwei.chao@derbysoft.net)
+ */
 import React, {Component} from 'react';
 
 import MonthRangeField from 'src/MonthRangeField';
@@ -42,8 +46,8 @@ class MonthRangeFieldExamples extends Component {
                                 <p><code>Month Range Field</code>simple example.</p>
 
                                 <MonthRangeField onChange={this.onChangeHandler}
-                                                 value={['2022-5-1', '2023-4']}
-                                                 minValue="2021-07"
+                                                 value={['2022-09-01', '2022-09-30']}
+                                                 minValue="2018-11"
                                                  maxValue="2023-08"/>
                             </div>
 
@@ -64,11 +68,11 @@ class MonthRangeFieldExamples extends Component {
                                 <p><code>Month Range Field</code> using the <code>value</code> property to set initial
                                     date and the <code>dateFormat</code> property to set date format.</p>
 
-                                <MonthRangeField value={['2015-07', '2017-09']}
+                                {/* <MonthRangeField value={['2015-07', '2017-09']}
                                                  dateFormat={'YYYY/MM'}
                                                  maxValue={'2017-04-23'}
                                                  minValue={'2015-07-13'}
-                                                 onChange={this.onChangeHandler}/>
+                                                 onChange={this.onChangeHandler}/> */}
 
                             </div>
 
