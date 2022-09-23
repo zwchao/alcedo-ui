@@ -86,11 +86,7 @@ export PopoverProvider from './PopoverProvider';
 export Popup from './Popup';
 export PopupProvider from './PopupProvider';
 export Portal from './Portal';
-<<<<<<< HEAD
 export QuarterRangeField from './QuarterRangeField';
-=======
-export QuarterRangeFiled from './QuarterRangeFiled';
->>>>>>> 99e42a1063382b8c4fb027e89466d0de5fafd4eb
 export Radio from './Radio';
 export RadioGroup from './RadioGroup';
 export RaisedButton from './RaisedButton';
